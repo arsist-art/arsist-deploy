@@ -3,7 +3,7 @@ services:
     name: arsist
     runtime: image
     image:
-      url: docker.io/arsist/arsist:latest
+      url: docker.io/arsistart/arsist:latest
     envVars:
       - key: LICENSE_KEY
         sync: false
