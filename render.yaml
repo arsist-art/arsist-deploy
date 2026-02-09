@@ -4,6 +4,7 @@ services:
     runtime: image
     image:
       url: docker.io/arsistart/arsist:latest
+    plan: free
     envVars:
       - key: LICENSE_KEY
         sync: false
