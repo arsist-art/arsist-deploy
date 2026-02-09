@@ -1,6 +1,7 @@
 services:
   - type: web
     name: arsist
+    runtime: image
     image:
       url: docker.io/arsistart/arsist:latest
     plan: starter
