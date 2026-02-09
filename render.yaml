@@ -1,10 +1,9 @@
 services:
   - type: web
     name: arsist
-    runtime: image
     image:
       url: docker.io/arsistart/arsist:latest
-    plan: free
+    plan: starter
     envVars:
       - key: LICENSE_KEY
         sync: false
